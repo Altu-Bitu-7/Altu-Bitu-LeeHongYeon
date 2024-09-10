@@ -47,7 +47,7 @@ pos checkStone(pos stone, pos king, string cmd){
 }
 
 bool isInRange(pos p){
-    if (p.first < 'A' || p.second > 'H' || p.second < 1 || p.second > 8){ //체스판 벗어나는지 체크
+    if (p.first < 'A' || p.first > 'H' || p.second < 1 || p.second > 8){ //체스판 벗어나는지 체크
         return false;
     }
     return true;
