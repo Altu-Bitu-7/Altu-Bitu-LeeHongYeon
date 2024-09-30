@@ -30,8 +30,9 @@ int dp(int x, int y){
     }
 
     if (check[x][y] != -1){
-        return check[x][y]
+        return check[x][y];
     }
+    
     //아직 방문하지 않은 경우
     check[x][y] = dp(x + board[x][y], y) || dp(x, y + board[x][y]);
     return check[x][y];
