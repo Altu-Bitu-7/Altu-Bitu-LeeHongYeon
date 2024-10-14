@@ -51,7 +51,7 @@ int main(){
     }
 
     //연산
-    backtrack();
+    backtrack(0);
 
     //출력
     cout << max_sequence << "\n" << min_sequence;

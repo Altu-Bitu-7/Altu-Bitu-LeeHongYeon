@@ -4,8 +4,6 @@
 
 using namespace std;
 
-const int MAX_N = 7;
-
 //재귀함수의 과부하를 막기 위해 전역변수 사용
 int n, m; 
 vector<int> sequence(7);
