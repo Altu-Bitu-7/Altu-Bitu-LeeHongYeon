@@ -18,7 +18,7 @@ bool findHeight(int height) {
         }
     }
 
-    if (light[m - 1] + height < n){
+    if (position[m - 1] + height < n){
         return false;
     }
     return true;
